@@ -1,0 +1,17 @@
+import React from 'react'
+import styled from 'styled-components'
+
+export const Chat = () => {
+    return (
+        <ChatContainer>
+
+        </ChatContainer>
+    )
+}
+
+
+const ChatContainer = styled.div`
+flex: .7;
+flex-grow: 1;
+overflow-y: scroll;
+`
